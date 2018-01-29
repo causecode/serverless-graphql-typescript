@@ -15,7 +15,8 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "compile": "npm run clean && tsc",
-    "lint-ts": "tslint 'src/*.tsx' 'src/**/*.tsx' 'src/*.ts' 'src/**/*.ts'"
+    "lint-ts": "tslint 'src/*.tsx' 'src/**/*.tsx' 'src/*.ts' 'src/**/*.ts'",
+    "deploy-prod": "npm run build && serverless client deploy"
   },
   "jest": {
     "collectCoverage": true,

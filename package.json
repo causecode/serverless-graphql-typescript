@@ -1,0 +1,12 @@
+{
+  "name": "serverless-graphql-typescript",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd app-backend && npm install && cd ../app-client && npm install",
+    "server": "cd app-backend && npm start",
+    "client": "cd app-client && npm start",
+    "all": "npm run server | npm run client"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
