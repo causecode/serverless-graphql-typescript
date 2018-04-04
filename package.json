@@ -2,7 +2,6 @@
   "name": "serverless-graphql-typescript",
   "description": "A starting template for creating React16, Redux, GraphQL, Serverless and TypeScript powered mobile apps.",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "postinstall": "cd app-backend && npm install && cd ../app-client && npm install",
     "server": "cd app-backend && npm start",
@@ -11,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:causecode/serverless-graphql-typescript.git"
+    "url": "git@github.com:causecode/serverless-graphql-typescript.git"
   },
   "dependencies": {},
   "devDependencies": {}

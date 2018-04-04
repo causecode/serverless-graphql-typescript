@@ -17,7 +17,7 @@ provider:
         - dynamodb:PutItem
         - dynamodb:UpdateItem
         - dynamodb:DeleteItem
-      Resource: "arn:aws:dynamodb:us-east-1:*:table/users"
+      Resource: "arn:aws:dynamodb:us-east-1:*:table/*"
 
 plugins:
   - serverless-webpack
@@ -56,21 +56,3 @@ functions:
         path: graphiql
         method: get
         cors: true
-
-resources:
-  Resources:
-    UserTable:
-      Type: 'AWS::DynamoDB::Table'
-      Properties:
-        KeySchema:
-          -
-            AttributeName: screen_name
-            KeyType: HASH
-        AttributeDefinitions:
-          -
-            AttributeName: screen_name
-            AttributeType: S
-        ProvisionedThroughput:
-          ReadCapacityUnits: 10
-          WriteCapacityUnits: 10
-        TableName: 'users'

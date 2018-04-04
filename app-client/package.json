@@ -6,9 +6,8 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/causecode/react-mobile-starter"
+    "url": "git@github.com:causecode/serverless-graphql-typescript.git"
   },
-  "private": true,
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
