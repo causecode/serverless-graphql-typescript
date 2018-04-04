@@ -3,7 +3,8 @@
   "description": "A starting template for creating React16, Redux, GraphQL, Serverless and TypeScript powered mobile apps.",
   "main": "webpack.config.js",
   "author": "CauseCode Technologies",
-  "license": "ISC",
+  "license": "Apache-2.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git@github.com:causecode/serverless-graphql-typescript.git"

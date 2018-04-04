@@ -53,7 +53,7 @@ To use the GraphQL Playground, open `/playground` of your Serverless service. Wi
 
 ### Usage of GraphiQL
  To use the GraphiQL, open `/graphiql` of your Serverless service. With serverless offline it is `http://localhost:4000/graphiql`.
- 
+
 <img width="800" height="500" alt="graphiql" src="https://user-images.githubusercontent.com/1587005/32695300-943e355e-c70c-11e7-9fac-2c9324a242c4.gif">
 
 
@@ -87,3 +87,21 @@ You need to make sure you have access to your deployed lambda functions.
         # Your deployment url will be printed on the console
         ```
     - Your deployment url will be : http://[bucket-name].s3-website-[region-name].amazonaws.com/
+
+## Contribution
+
+CauseCode Technologies welcomes contributions to our [open source projects on Github](https://github.com/causecode).
+
+### Issues
+Feel free to submit issues and enhancement requests.
+
+### Contributing
+Please refer to each project's style guidelines and guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
+
+ 1. **Fork** the repo on GitHub
+ 2. **Clone** the project to your own machine
+ 3. **Commit** changes to your own branch
+ 4. **Push** your work back up to your fork
+ 5. Submit a **Pull request** so that we can review your changes
+
+NOTE: Be sure to merge the latest from "upstream" before making a pull request!
