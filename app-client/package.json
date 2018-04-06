@@ -3,12 +3,12 @@
   "description": "A starting template for creating React16, Redux, GraphQL, Serverless and TypeScript powered mobile apps.",
   "main": "webpack.config.js",
   "author": "CauseCode Technologies",
-  "license": "ISC",
+  "license": "Apache-2.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/causecode/react-mobile-starter"
+    "url": "git@github.com:causecode/serverless-graphql-typescript.git"
   },
-  "private": true,
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
